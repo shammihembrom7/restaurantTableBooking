@@ -20,3 +20,10 @@ Customers:
 3. Book a table/Cancel a reservation. 
 4. Write reviews on experience
 
+
+to filter resatuarants by name/location/cuisines:
+  hit the restaurant endpoint with  '?name=KFC'
+  
+  ex: http://127.0.0.1:8000/restaurants/?location=ulsoor
+      http://127.0.0.1:8000/restaurants/?cuisine=italian
+      http://127.0.0.1:8000/restaurants/?name=KFC
