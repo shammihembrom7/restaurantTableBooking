@@ -7,3 +7,4 @@ from tables.serializers import TableSerializer
 class TableViewSet(viewsets.ModelViewSet):
     queryset = Table.objects.all()
     serializer_class = TableSerializer
+    filter_fields=('__all__')
